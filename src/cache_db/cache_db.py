@@ -11,11 +11,11 @@ class CacheDB:
 
     def load_cache(self, mode="r", encoding="utf-8"):
         if File.exists(self.file_path):
-            with open(self.file_path, mode, encoding) as file:
+            with open(self.file_path, mode, encoding=encoding) as file:
                 self.cache = json.load(file)
 
     def save_cache(self, mode="w", encoding="utf-8"):
-        with open(self.file_path, mode, encoding) as file:
+        with open(self.file_path, mode, encoding=encoding) as file:
             json.dump(self.cache, file, ensure_ascii=False)
 
     def get(self, key):
