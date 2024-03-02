@@ -1,0 +1,46 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "7e0fad0e324be1c9d98b1ce0fb1e80e2d5183fc8654c0ddc48eb0bdd63a97205"
+        },
+        "pipfile-spec": 6,
+        "requires": {},
+        "sources": [
+            {
+                "name": "pypi",
+                "url": "https://pypi.org/simple",
+                "verify_ssl": true
+            }
+        ]
+    },
+    "default": {
+        "emo-file-system": {
+            "hashes": [
+                "sha256:98d93d21b4656f7b217fa1f4dc8be9ceaceeef9fdf7b559946c8df3a432194c2",
+                "sha256:cd0f49e3456cbb40d7945014652f1e421a26d578973a0cfc92156e86ad02c8d6"
+            ],
+            "index": "pypi",
+            "markers": "python_version >= '3.11'",
+            "version": "==0.0.3"
+        },
+        "setuptools": {
+            "hashes": [
+                "sha256:02fa291a0471b3a18b2b2481ed902af520c69e8ae0919c13da936542754b4c56",
+                "sha256:5c0806c7d9af348e6dd3777b4f4dbb42c7ad85b190104837488eab9a7c945cf8"
+            ],
+            "index": "pypi",
+            "markers": "python_version >= '3.8'",
+            "version": "==69.1.1"
+        },
+        "wheel": {
+            "hashes": [
+                "sha256:177f9c9b0d45c47873b619f5b650346d632cdc35fb5e4d25058e09c9e581433d",
+                "sha256:c45be39f7882c9d34243236f2d63cbd58039e360f85d0913425fbd7ceea617a8"
+            ],
+            "index": "pypi",
+            "markers": "python_version >= '3.7'",
+            "version": "==0.42.0"
+        }
+    },
+    "develop": {}
+}
