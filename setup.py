@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="emo_cache_db",
-    version="v0.0.2",
+    version="v0.0.3",
     author="Eren Mustafa Özdal",
     author_email="eren.060737@gmail.com",
     packages=find_packages(where="src"),

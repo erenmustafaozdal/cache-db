@@ -1,4 +1,5 @@
 import json
+from typing import Any, Union
 from file_system.file import File
 
 
@@ -18,8 +19,8 @@ class CacheDB:
         with open(self.file_path, mode, encoding=encoding) as file:
             json.dump(self.cache, file, ensure_ascii=False)
 
-    def get(self, key):
-        return self.cache.get(key)
+    def get(self, key: str, default: Union[Any, None] = None):
+        return self.cache.get(key, default)
 
     def set(self, key, value):
         self.cache[key] = value
